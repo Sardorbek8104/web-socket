@@ -80,29 +80,4 @@ Ilovani ishga tushirganingizdan soʻng, birma-bir chat funksionalitetini sinash 
 
 Shu tarzda siz ikki foydalanuvchi oʻrtasida real-time birma-bir chatni sinashingiz mumkin.
 
-## 📂 Loyiha Tuzilmasi
-
-one-to-one-chat/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/example/onetonechat/
-│   │   │       ├── OneToOneChatApplication.java     # Asosiy Spring Boot ilovasi
-│   │   │       ├── config/
-│   │   │       │   └── WebSocketConfig.java         # WebSocket konfiguratsiyasi
-│   │   │       ├── controller/
-│   │   │       │   └── ChatController.java          # WebSocket xabarlarini boshqarish
-│   │   │       └── model/
-│   │   │           └── ChatMessage.java             # Xabar POJO modeli
-│   │   └── resources/
-│   │       ├── static/                            # Frontend statik fayllari
-│   │       │   ├── index.html                     # Chat interfeysi
-│   │       │   ├── app.js                         # Frontend JavaScript logikasi
-│   │       │   └── style.css                      # Frontend stil fayli
-│   │       └── application.properties             # Spring Boot konfiguratsiya (boʻsh boʻlishi mumkin)
-│   └── test/
-│       └── ...
-├── pom.xml                                  # Maven konfiguratsiya
-└── README.md                                # Ushbu fayl
-
 
